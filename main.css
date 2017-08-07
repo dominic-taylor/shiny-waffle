@@ -18,6 +18,10 @@ a {
 	text-decoration: none;
 }
 
+p{
+	font-family: 'Raleway';
+	font-size: 1.25rem;
+}
 
 .nav-open{
 	z-index: 5;
@@ -219,7 +223,10 @@ header	{
 	color: #fff;
 	font-size: 3rem;
 }
-
+#portfolio h3{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
 
 .current {
 	background: green; 
