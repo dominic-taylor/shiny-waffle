@@ -224,7 +224,7 @@ header	{
 	font-size: 3rem;
 }
 #portfolio h3{
-	font-size: 2rem;
+	font-size: 1.75rem;
 	margin-bottom: 1rem;
 }
 
@@ -241,6 +241,7 @@ header	{
 	background-size: cover;
 	background-position: center;
 	padding-top: 1em;
+	border-radius: 10px;
 
 }
 
