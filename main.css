@@ -37,9 +37,7 @@ p
 
     width: 100%;
 
-    background: linear-gradient(to bottom right,
-    rgba(220, 66, 37, 1),
-    rgba(0, 47, 75, 1));
+    background: #f44336;
 }
 .container-fluid
 {
@@ -123,7 +121,6 @@ nav a
     width: 100%;
     height: auto;
     margin: auto;
-    /*display: inline-flex;*/
     padding: 1vh;
 
     color: #fff;
@@ -132,6 +129,7 @@ nav a
     rgba(220, 66, 37, .5),
     rgba(0, 47, 75, .5)),
     url('./assets/Optimized-helloquence-61189.jpg') no-repeat center center fixed;
+  
     background-size: cover;
 }
 
@@ -154,7 +152,6 @@ nav a
 
 .hero-text-wrapper h2
 {
-    /*	font-size: 2rem;*/
     margin: 2.5em 0;
 }
 .text-wrapper{
@@ -195,33 +192,10 @@ nav a
 .call-to-action:hover
 {
     transition: .3s;
-
-    background: #3cfc49;
     background: #4caf50;
 }
-.down-arrow
-{
-    position: absolute;
-    bottom: 105px;
-    left: 50%;
-
-    margin-left: -13px;
-}
 
 
-/*Services Styles*/
-
-#services
-{
-    /*position: relative;*/
-    /*background: grey;*/
-
-/*    padding: 2em 0 6.5em 0;*/
-    /*	text-align: center;
-*/
-}
-
-/*#services .title*/
 .title
 {
     font-size: 3rem;
@@ -235,6 +209,9 @@ nav a
 
     color: #002f4b;;
 }
+
+/*Services Styles*/
+
 .service
 {
     width: 100%;
@@ -275,24 +252,13 @@ nav a
 
 #portfolio
 {
-/*    position: relative;
-
-    overflow: hidden;
-
-    width: 100%;
-    padding-bottom: 3rem;*/
-
-    background: rgba(0, 47, 75, .68);
+    background: rgba(0, 47, 75, .5);
 }
 
-/*#portfolio .title
+#portfolio .title
 {
-    font-size: 3rem;
-
-    text-align: center;
-
     color: #fff;
-}*/
+}
 #portfolio h3
 {
     font-size: 1.75rem;
@@ -374,19 +340,6 @@ nav a
 
 /*Contact Section */
 
-
-#contact
-{
-    /*padding: 8em 0 8em 0;*/
-}
-/*#contact .title
-{
-    font-size: 3rem;
-    
-
-    margin: 0;
-}*/
-
 #contact p
 {
     margin: 2.5em 0;
@@ -414,20 +367,21 @@ footer a
 
     color: green;
 }
+
 /*Media Queries*/
 
 @media screen and (min-width: 800px)
 {
     nav
     {
-        /*position: initial;*/
+    	position: absolute;
         z-index: 3;
 
         display: inline-flex;
 
         text-align: right;
 
-        background: initial;
+        /*background: initial;*/
     }
     nav a
     {
@@ -444,10 +398,7 @@ footer a
         display: initial;
     }
 
-    #portfolio
-    {
-        /*padding-bottom: 8rem;*/
-    }
+   
     #menu-button,
     #close-menu
     {
