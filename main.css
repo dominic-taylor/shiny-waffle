@@ -11,7 +11,9 @@ body
     font-family: 'Overpass', sans-serif;
     font-size: 18px;
 }
-
+section {
+	padding: 5rem 0;
+}
 li
 {
     display: initial;
@@ -139,13 +141,13 @@ nav a
     max-width: 31em;
     margin: auto;
     padding-top: 10vh;
-
     text-align: left;
 }
 
 
 .hero-text-wrapper h1
 {
+
     font-size: 5rem;
     line-height: 1.25em;
 }
@@ -155,11 +157,22 @@ nav a
     /*	font-size: 2rem;*/
     margin: 2.5em 0;
 }
+.text-wrapper{
+	margin: auto;
+	max-width: 30rem;
 
+}
 .center-wrapper
 {
     text-align: center;
 }
+
+.square-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .call-to-action
 {
 	display: block;
@@ -200,15 +213,16 @@ nav a
 
 #services
 {
-    position: relative;
+    /*position: relative;*/
     /*background: grey;*/
 
-    padding: 2em 0 6.5em 0;
+/*    padding: 2em 0 6.5em 0;*/
     /*	text-align: center;
 */
 }
 
-#services .title
+/*#services .title*/
+.title
 {
     font-size: 3rem;
 
@@ -261,24 +275,24 @@ nav a
 
 #portfolio
 {
-    position: relative;
+/*    position: relative;
 
     overflow: hidden;
 
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem;*/
 
     background: rgba(0, 47, 75, .68);
 }
 
-#portfolio .title
+/*#portfolio .title
 {
     font-size: 3rem;
 
     text-align: center;
 
     color: #fff;
-}
+}*/
 #portfolio h3
 {
     font-size: 1.75rem;
@@ -363,18 +377,15 @@ nav a
 
 #contact
 {
-    padding: 8em 0 8em 0;
-
-    color: #fff;
-    background: #333;
+    /*padding: 8em 0 8em 0;*/
 }
-#contact .title
+/*#contact .title
 {
     font-size: 3rem;
-    /*color: #333;*/
+    
 
     margin: 0;
-}
+}*/
 
 #contact p
 {
@@ -387,14 +398,15 @@ nav a
 footer
 {
     padding: 1.5em 0;
+
+    background: #333;
+    color: #fff;
 }
 footer .copyright
 {
     font-weight: 700;
 
     text-align: center;
-
-    color: #333;
 }
 footer a
 {
@@ -434,7 +446,7 @@ footer a
 
     #portfolio
     {
-        padding-bottom: 8rem;
+        /*padding-bottom: 8rem;*/
     }
     #menu-button,
     #close-menu
